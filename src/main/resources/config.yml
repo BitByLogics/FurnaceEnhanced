@@ -1,6 +1,13 @@
-#########################################################
-# Enable or disable the update checker. If disabled,    #
-# you'll not see if there's a new version available     #
-#########################################################
-update-checker-enabled: true
-update-checker-checkeveryxhours: 12
+#####################################################################
+#  ___                        ___      _                        _   #
+# | __|  _ _ _ _ _  __ _ __ _| __|_ _ | |_  __ _ _ _  __ ___ __| |  #
+# | _| || | '_| ' \/ _` / _/ _| _|| ' \| ' \/ _` | ' \/ _/ -_) _` | #
+# |_| \_,_|_| |_||_\__,_\__\__|___|_||_|_||_\__,_|_||_\__\___\__,_| #
+#         Continued by BitByLogic, Original Author mvez73           #
+#####################################################################
+Settings:
+  Update-Checker:
+    # Whether to receive notifications about new versions.
+    Enabled: true
+    # How often to check for updates (in hours).
+    Check-Interval: 12
