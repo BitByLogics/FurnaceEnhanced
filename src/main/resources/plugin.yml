@@ -1,9 +1,8 @@
 name: FurnaceEnhanced
 version: '${project.version}'
-main: me.mvez73.furnaceenhanced.FurnaceEnhanced
-#main: me.mvez73.furnaceenhanced.FurnaceEnhanced
+main: net.bitbylogic.furnaceenhanced.FurnaceEnhanced
 api-version: '1.20'
-authors: [ mvez73 ]
+authors: [ mvez73, BitByLogic ]
 description: Configurable furnaces cook time speed
 permissions:
   furnaceenhanced.10:
